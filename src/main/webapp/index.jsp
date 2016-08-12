@@ -15,7 +15,7 @@
     java.sql.Connection con;
     Class.forName("com.mysql.jdbc.Driver");
     con = DriverManager.getConnection("jdbc:mysql://localhost:3306/owncloud"+, user, password);
-    out.println (db+ "database successfully opened.");
+    out.println (user + " database successfully opened.");
   }
   catch(SQLException e) {
     out.println("SQLException caught: " +e.getMessage());
