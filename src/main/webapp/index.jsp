@@ -8,7 +8,7 @@
 <h1>JDBC Connection example</h1>
 
 <%
-  String user = "owncloud";
+  String user = "root";
   String password = "123";
   
   try {
