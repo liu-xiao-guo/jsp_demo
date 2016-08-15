@@ -9,7 +9,7 @@
 
 <%
   String user = "owncloud";
-  String password = "123";
+  String password = "1234";
   
   try {
     java.sql.Connection con;
